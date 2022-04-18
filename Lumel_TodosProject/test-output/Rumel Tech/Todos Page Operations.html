@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>TestNG:  Todos Page Operations</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Todos Page Operations</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 18 19:09:23 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3067 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.FilteringtodosTest.FilteringtodosTest_init()'><b>FilteringtodosTest_init</b><br>Test class: tests.FilteringtodosTest<br/>
+<a href="#Output-1747025217" onClick='toggleBox("Output-1747025217", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1747025217" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1747025217">
+
+ Completed todo list items are displaying correctly 
+[Go for a walk, Do Laundary]<br/>
+
+ Active todo list items are displaying correctly 
+[Read a Book]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FilteringtodosTest@3967e60c</td></tr>
+<tr>
+<td title='tests.OpentodosTest.OpentodosTest_init()'><b>OpentodosTest_init</b><br>Test class: tests.OpentodosTest<br/>
+<a href="#Output-118881143" onClick='toggleBox("Output-118881143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-118881143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-118881143">
+The todos page is getting displayed<br/>
+
+
+ The value Drink Water is entered in the textbox 
+
+<br/>
+
+ Given value Drink Water is added to the todos list 
+
+<br/>
+
+
+ The value Go for a walk is entered in the textbox 
+
+<br/>
+
+ Given value Go for a walk is added to the todos list 
+
+<br/>
+
+
+ The value Do Laundary is entered in the textbox 
+
+<br/>
+
+ Given value Do Laundary is added to the todos list 
+
+<br/>
+
+
+ The value EXERCISE Daily is entered in the textbox 
+
+<br/>
+
+ Given value EXERCISE Daily is added to the todos list 
+
+<br/>
+
+
+ The value Read a Book is entered in the textbox 
+
+<br/>
+
+ Given value Read a Book is added to the todos list 
+
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.OpentodosTest@59d016c9</td></tr>
+<tr>
+<td title='tests.DeletetodosTest.DeletetodosTest_init()'><b>DeletetodosTest_init</b><br>Test class: tests.DeletetodosTest<br/>
+<a href="#Output-827099978" onClick='toggleBox("Output-827099978", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-827099978" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-827099978">
+Given item Drink Water is not available in row 1<br/>
+Given item Drink Water is not available in row 2<br/>
+Given item Drink Water is not available in row 3<br/>
+Given item Drink Water is not available in row 4<br/>
+Itemlist reduced from 3 to 2<br/>
+Given item EXERCISE Daily is not available in row 1<br/>
+Given item EXERCISE Daily is not available in row 2<br/>
+Given item EXERCISE Daily is not available in row 3<br/>
+Itemlist reduced from 3 to 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.DeletetodosTest@20d28811</td></tr>
+<tr>
+<td title='tests.CompletetodosTest.CompletetodosTest_init()'><b>CompletetodosTest_init</b><br>Test class: tests.CompletetodosTest<br/>
+<a href="#Output-362432678" onClick='toggleBox("Output-362432678", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-362432678" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-362432678">
+
+ The item Go for a walk is marked complete in the list 
+<br/>
+
+ The item count value is reduced to 4<br/>
+
+ The todo list Go for a walk is striked through in the display 
+<br/>
+
+ The item Do Laundary is marked complete in the list 
+<br/>
+
+ The item count value is reduced to 3<br/>
+
+ The todo list Do Laundary is striked through in the display 
+<br/>
+Given todoslist is marked as complete<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.CompletetodosTest@3cc2931c</td></tr>
+</table><p>
+</body>
+</html>

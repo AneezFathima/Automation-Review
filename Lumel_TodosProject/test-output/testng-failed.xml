@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rumel Tech]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Todos Page Operations(failed)">
+    <classes>
+      <class name="tests.OpentodosTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+          <include name="OpentodosTest_init"/>
+        </methods>
+      </class> <!-- tests.OpentodosTest -->
+      <class name="tests.FilteringtodosTest">
+        <methods>
+          <include name="FilteringtodosTest_init"/>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- tests.FilteringtodosTest -->
+      <class name="tests.CompletetodosTest">
+        <methods>
+          <include name="CompletetodosTest_init"/>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- tests.CompletetodosTest -->
+    </classes>
+  </test> <!-- Todos Page Operations(failed) -->
+</suite> <!-- Failed suite [Rumel Tech] -->

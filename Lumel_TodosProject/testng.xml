@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rumel Tech">
+
+	<test name="Todos Page Operations">
+		<classes>
+			<class name="tests.TestBase" />
+			<class name="tests.OpentodosTest" />
+			<class name="tests.CompletetodosTest" />
+		    <class name="tests.DeletetodosTest" />
+		    <class name="tests.FilteringtodosTest" />
+		</classes>
+	</test>
+</suite> 

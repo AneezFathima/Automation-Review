@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="12" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The todos page is getting displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+
+ The value Drink Water is entered in the textbox 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ Given value Drink Water is added to the todos list 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+
+ The value Go for a walk is entered in the textbox 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ Given value Go for a walk is added to the todos list 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+
+ The value Do Laundary is entered in the textbox 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ Given value Do Laundary is added to the todos list 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+
+ The value EXERCISE Daily is entered in the textbox 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ Given value EXERCISE Daily is added to the todos list 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+
+ The value Read a Book is entered in the textbox 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ Given value Read a Book is added to the todos list 
+
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ The item Go for a walk is marked complete in the list 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ The item count value is reduced to 4]]>
+    </line>
+    <line>
+      <![CDATA[
+ The todo list Go for a walk is striked through in the display 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ The item Do Laundary is marked complete in the list 
+]]>
+    </line>
+    <line>
+      <![CDATA[
+ The item count value is reduced to 3]]>
+    </line>
+    <line>
+      <![CDATA[
+ The todo list Do Laundary is striked through in the display 
+]]>
+    </line>
+    <line>
+      <![CDATA[Given todoslist is marked as complete]]>
+    </line>
+    <line>
+      <![CDATA[Given item Drink Water is not available in row 1]]>
+    </line>
+    <line>
+      <![CDATA[Given item Drink Water is not available in row 2]]>
+    </line>
+    <line>
+      <![CDATA[Given item Drink Water is not available in row 3]]>
+    </line>
+    <line>
+      <![CDATA[Given item Drink Water is not available in row 4]]>
+    </line>
+    <line>
+      <![CDATA[Itemlist reduced from 3 to 2]]>
+    </line>
+    <line>
+      <![CDATA[Given item EXERCISE Daily is not available in row 1]]>
+    </line>
+    <line>
+      <![CDATA[Given item EXERCISE Daily is not available in row 2]]>
+    </line>
+    <line>
+      <![CDATA[Given item EXERCISE Daily is not available in row 3]]>
+    </line>
+    <line>
+      <![CDATA[Itemlist reduced from 3 to 1]]>
+    </line>
+    <line>
+      <![CDATA[
+ Completed todo list items are displaying correctly 
+[Go for a walk, Do Laundary]]]>
+    </line>
+    <line>
+      <![CDATA[
+ Active todo list items are displaying correctly 
+[Read a Book]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-18T19:09:23 IST" name="Rumel Tech" finished-at="2022-04-18T19:09:26 IST" duration-ms="3067">
+    <groups>
+      <group name="DeleteList">
+        <method signature="DeletetodosTest.DeletetodosTest_init()[pri:0, instance:tests.DeletetodosTest@20d28811]" name="DeletetodosTest_init" class="tests.DeletetodosTest"/>
+      </group> <!-- DeleteList -->
+      <group name="FilterList">
+        <method signature="FilteringtodosTest.FilteringtodosTest_init()[pri:0, instance:tests.FilteringtodosTest@3967e60c]" name="FilteringtodosTest_init" class="tests.FilteringtodosTest"/>
+      </group> <!-- FilterList -->
+      <group name="completeList">
+        <method signature="CompletetodosTest.CompletetodosTest_init()[pri:0, instance:tests.CompletetodosTest@3cc2931c]" name="CompletetodosTest_init" class="tests.CompletetodosTest"/>
+      </group> <!-- completeList -->
+      <group name="itemlist">
+        <method signature="OpentodosTest.OpentodosTest_init()[pri:0, instance:tests.OpentodosTest@59d016c9]" name="OpentodosTest_init" class="tests.OpentodosTest"/>
+      </group> <!-- itemlist -->
+    </groups>
+    <test started-at="2022-04-18T19:09:23 IST" name="Todos Page Operations" finished-at="2022-04-18T19:09:26 IST" duration-ms="3067">
+      <class name="tests.TestBase">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.TestBase@6ac13091]" started-at="2022-04-18T19:09:11 IST" name="initialize" finished-at="2022-04-18T19:09:23 IST" duration-ms="11976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:tests.TestBase@6ac13091]" started-at="2022-04-18T19:09:31 IST" name="TeardownTest" finished-at="2022-04-18T19:09:31 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.FilteringtodosTest">
+        <test-method signature="FilteringtodosTest_init()[pri:0, instance:tests.FilteringtodosTest@3967e60c]" started-at="2022-04-18T19:09:26 IST" name="FilteringtodosTest_init" depends-on-groups="itemlist, completeList" finished-at="2022-04-18T19:09:26 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ Completed todo list items are displaying correctly 
+[Go for a walk, Do Laundary]]]>
+            </line>
+            <line>
+              <![CDATA[
+ Active todo list items are displaying correctly 
+[Read a Book]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FilteringtodosTest_init -->
+      </class> <!-- tests.FilteringtodosTest -->
+      <class name="tests.OpentodosTest">
+        <test-method signature="OpentodosTest_init()[pri:0, instance:tests.OpentodosTest@59d016c9]" started-at="2022-04-18T19:09:23 IST" name="OpentodosTest_init" finished-at="2022-04-18T19:09:24 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The todos page is getting displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+
+ The value Drink Water is entered in the textbox 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ Given value Drink Water is added to the todos list 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+
+ The value Go for a walk is entered in the textbox 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ Given value Go for a walk is added to the todos list 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+
+ The value Do Laundary is entered in the textbox 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ Given value Do Laundary is added to the todos list 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+
+ The value EXERCISE Daily is entered in the textbox 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ Given value EXERCISE Daily is added to the todos list 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+
+ The value Read a Book is entered in the textbox 
+
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ Given value Read a Book is added to the todos list 
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpentodosTest_init -->
+      </class> <!-- tests.OpentodosTest -->
+      <class name="tests.CompletetodosTest">
+        <test-method signature="CompletetodosTest_init()[pri:0, instance:tests.CompletetodosTest@3cc2931c]" started-at="2022-04-18T19:09:24 IST" name="CompletetodosTest_init" depends-on-groups="itemlist" finished-at="2022-04-18T19:09:25 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ The item Go for a walk is marked complete in the list 
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ The item count value is reduced to 4]]>
+            </line>
+            <line>
+              <![CDATA[
+ The todo list Go for a walk is striked through in the display 
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ The item Do Laundary is marked complete in the list 
+]]>
+            </line>
+            <line>
+              <![CDATA[
+ The item count value is reduced to 3]]>
+            </line>
+            <line>
+              <![CDATA[
+ The todo list Do Laundary is striked through in the display 
+]]>
+            </line>
+            <line>
+              <![CDATA[Given todoslist is marked as complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CompletetodosTest_init -->
+      </class> <!-- tests.CompletetodosTest -->
+      <class name="tests.DeletetodosTest">
+        <test-method signature="DeletetodosTest_init()[pri:0, instance:tests.DeletetodosTest@20d28811]" started-at="2022-04-18T19:09:25 IST" name="DeletetodosTest_init" depends-on-groups="itemlist" finished-at="2022-04-18T19:09:26 IST" duration-ms="896" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Given item Drink Water is not available in row 1]]>
+            </line>
+            <line>
+              <![CDATA[Given item Drink Water is not available in row 2]]>
+            </line>
+            <line>
+              <![CDATA[Given item Drink Water is not available in row 3]]>
+            </line>
+            <line>
+              <![CDATA[Given item Drink Water is not available in row 4]]>
+            </line>
+            <line>
+              <![CDATA[Itemlist reduced from 3 to 2]]>
+            </line>
+            <line>
+              <![CDATA[Given item EXERCISE Daily is not available in row 1]]>
+            </line>
+            <line>
+              <![CDATA[Given item EXERCISE Daily is not available in row 2]]>
+            </line>
+            <line>
+              <![CDATA[Given item EXERCISE Daily is not available in row 3]]>
+            </line>
+            <line>
+              <![CDATA[Itemlist reduced from 3 to 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeletetodosTest_init -->
+      </class> <!-- tests.DeletetodosTest -->
+    </test> <!-- Todos Page Operations -->
+  </suite> <!-- Rumel Tech -->
+</testng-results>

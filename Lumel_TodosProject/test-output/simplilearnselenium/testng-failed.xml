@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [simplilearnselenium]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testngTest(failed)">
+    <parameter name="todo2" value="Go for a walk"/>
+    <parameter name="todo3" value="Do Laundry"/>
+    <parameter name="todo1" value="Drink water"/>
+    <classes>
+      <class name="rumeltech_todolist.TodoList">
+        <methods>
+          <include name="launchChromeBrowser"/>
+          <include name="deletetodoslist" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- rumeltech_todolist.TodoList -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [simplilearnselenium] -->
